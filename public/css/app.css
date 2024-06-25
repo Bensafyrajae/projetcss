@@ -80,3 +80,36 @@ nav {
         width: 300px;
     }
 }
+.div1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+    opacity: 0.5;
+}
+.part1{
+   text-align: center;  
+   padding: 15px;
+   background-color: rgb(246, 246, 253);
+}
+i{
+    background-color:rgb(180, 163, 239) ;
+    border-radius: 20px;
+    border: 1PX solid rgb(180, 163, 239);
+    width: 25px;
+    height: 20px;
+}
+@media  (max-width: 425px) {
+    .part1{
+        text-align: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    } 
+    .div1{
+        gap: 3px;
+        text-align: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    }
+    
