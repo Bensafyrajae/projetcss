@@ -21,3 +21,17 @@ i{
     width: 25px;
     height: 20px;
 }
+@media  (max-width: 425px) {
+    .part1{
+        text-align: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    } 
+    .div1{
+        gap: 3px;
+        text-align: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    }
+    
