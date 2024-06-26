@@ -2,6 +2,95 @@
     padding: 0;
     margin: 0;
 }
+nav {
+    background-color: #ffffff;
+    display: flex;
+    justify-content:space-evenly;
+    padding: 20px 30px;
+  }
+
+  .nav a {
+    display: flex;
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+ .nav .btn1 {
+    background-color: #8A2BE2;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+ }
+
+
+.split{
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #8A2BE2;
+}
+  
+.landing-page{
+    margin: 70px;
+}
+.center-img{
+    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      
+}
+.center-m{
+    text-align: center;
+}
+.center-m p {
+    padding: 10px;
+}
+.btn2{
+    width: 180px;
+    background-color: #8A2BE2;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.div1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+    opacity: 0.5;
+}
+.part1{
+   text-align: center;  
+   padding: 15px;
+   background-color: rgb(246, 246, 253);
+}
+i{
+    background-color:rgb(180, 163, 239) ;
+    padding:  15px 20px;
+    border-radius: 50%;
+    color: blue;
+    border: 1PX solid rgb(180, 163, 239);
+    width: 25px;
+    height: 20px;
+}
 .center-f{
     text-align: center;
     padding: 25px;
@@ -36,7 +125,6 @@
     color: #fff;
     font-weight: bold
 }
-
 .numbers {
     display: flex;
     justify-content: center;
@@ -54,8 +142,28 @@
     color: #fff;
 }
 
-@media (max-width:425px) {
-     .collect {
+
+@media (max-width: 425px) {
+    .images {
+        display: flex;
+        flex-direction: column; 
+    }
+    .center-img{
+        height: 200px;
+        width: 300px;
+    }
+     .part1{
+        text-align: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    } 
+    .div1{
+        gap: 3px;
+        text-align: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+      .collect {
          display: flex;
          flex-direction: column-reverse;
      }
@@ -63,6 +171,6 @@
         display: flex;
         flex-direction: column;
         text-align: center;
-        gap:20px;
+        gap:15px;
     }
 }
